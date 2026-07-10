@@ -1,42 +1,102 @@
 # AI-assisted Energy Data Validation Platform
 
+> 🚧 **Project Status:** Work in Progress (Graduate Innovation Project)
+
+---
+
 ## Overview
 
-This repository contains my graduate innovation project developed during **SEP790 / SEP794** in the **Master of Engineering Entrepreneurship & Innovation (MEEI)** program at McMaster University.
+This repository documents an ongoing graduate innovation project developed during the SEP790 / SEP794 courses in the Master of Engineering Entrepreneurship & Innovation (MEEI) program at McMaster University.
 
-The project explores how artificial intelligence can improve the quality, reliability, and trustworthiness of energy data through intelligent validation workflows, AI-assisted documentation, and blockchain-enabled data verification.
+The project explores how Artificial Intelligence, Engineering Data Analytics, and Trusted Digital Technologies can work together to improve the quality, reliability, and traceability of engineering data.
 
-Rather than focusing on AI alone, the project investigates how AI, data analytics, and trusted digital technologies can work together to support future energy systems.
+Rather than focusing solely on AI, the project investigates an integrated workflow combining intelligent data validation, automated technical documentation, engineering analytics, and future blockchain-enabled verification.
 
 ---
 
-# Project Objectives
+# Project Vision
 
-The project aims to design a prototype platform capable of supporting:
+The long-term goal is to develop an intelligent engineering platform capable of:
 
-- Energy data cleaning and validation
-- AI-assisted technical documentation
-- Workflow automation
+- AI-assisted engineering data validation
+- Automated technical documentation
+- Engineering workflow automation
+- Intelligent reporting
 - Trusted data verification
-- Future blockchain and smart contract integration
+- Future blockchain integration for engineering traceability
 
 ---
 
-# Current Development
+# Current Development Status
 
-Current work focuses on:
+The project is currently under active development.
 
-- AI-assisted workflow design
-- Energy data validation logic
-- Technical documentation
-- Engineering analytics
-- Prototype system architecture
+Completed:
 
-The blockchain verification component is currently under conceptual design and will be expanded in future development.
+- AI-assisted validation workflow design
+- Prototype engineering dashboard
+- Python-based data validation prototype
+- Engineering analytics framework
+- System architecture design
+
+In Progress:
+
+- Validation algorithms
+- Workflow optimization
+- AI-assisted documentation
+
+Planned:
+
+- Blockchain verification
+- Chainlink oracle integration
+- Smart contract automation
+- Real-time engineering dashboard
 
 ---
 
-# Technologies
+# System Workflow
+
+The proposed engineering workflow is illustrated below.
+
+![Workflow](images/Project workflow.png)
+
+The platform follows the workflow below:
+
+```
+Engineering Data
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+AI Validation
+        │
+        ▼
+Engineering Analytics
+        │
+        ▼
+Technical Documentation
+        │
+        ▼
+Trusted Verification
+        │
+        ▼
+Future Blockchain Storage
+```
+
+---
+
+# Prototype Dashboard
+
+Current dashboard prototype:
+
+![Dashboard](images/dashboard.png)
+
+The dashboard demonstrates how engineering data can be monitored and validated using interactive visualizations before entering the verification process.
+
+---
+
+# Technology Stack
 
 ## Artificial Intelligence
 
@@ -61,21 +121,41 @@ The blockchain verification component is currently under conceptual design and w
 
 ---
 
-# Future Roadmap
+# Repository Structure
 
-Future development will explore:
+```
+ai-energy-data-validation
 
-- Automated data validation
-- AI-powered reporting
-- Blockchain-based data integrity verification
-- Chainlink oracle integration
-- Smart contract automation
-- Interactive engineering dashboards
+│
+├── README.md
+│
+├── images
+│   ├── Project workflow.png
+│   ├── dashboard.png
+│   ├── data rinsing programming.png
+│   └── data rinsing programming2.png
+│
+└── source code
+```
 
 ---
 
-# Repository Status
+# Future Roadmap
 
-This repository documents an ongoing graduate innovation project.
+Future development will focus on:
 
-Additional documentation, workflow diagrams, architecture illustrations, dashboards, and source code will be added as development progresses.
+- AI-driven anomaly detection
+- Automated engineering report generation
+- Intelligent validation workflows
+- Blockchain-based engineering data verification
+- Chainlink oracle integration
+- Smart contract automation
+- Digital engineering audit trail
+
+---
+
+# About
+
+This repository represents an ongoing graduate innovation project completed as part of the Master of Engineering Entrepreneurship & Innovation (MEEI) program at McMaster University.
+
+The project serves as a prototype for exploring the application of Artificial Intelligence, Engineering Analytics, Workflow Automation, and Trusted Digital Technologies in future engineering systems.
